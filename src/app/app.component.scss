@@ -1,0 +1,126 @@
+.header {
+    width: 1,920px;
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4B565E;
+    color: white;
+    align-items: center; 
+    padding-right: 240px; 
+    padding-left: 240px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center; 
+}
+
+.header-nav {
+    display: flex;
+    font-weight: 600;
+}
+
+.header-nav-item {
+    margin: 20px;
+}
+
+.header-right-phone-logo {
+ margin: 10px;
+}
+
+.header-right-heart-logo {
+    margin: 40px;
+}
+
+.header-right-basket {
+    display: flex;
+    align-items: center; 
+    border: 1px solid white;
+    border-radius: 20px 20px 20px 20px; 
+    padding: 5px 5px 5px;
+}
+
+.header-2 {
+
+    display: flex;
+    align-items: center;
+    height: 48px;
+    background-color: #F0BA4E;
+    font-size: 14px;
+    padding-right: 240px; 
+    padding-left: 240px;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+}
+
+.logo-menu {
+    margin-right: 10px;
+}
+
+.header-2-nav-item {
+    margin-right: 24px;
+    font-family: inherit;
+}
+
+.header-2-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-2-right {
+    display: flex;
+}
+
+.header-2-right-search {
+    display: flex;
+    width: 400px;
+}
+
+.header-2-right {
+    display: flex; 
+}
+
+.search-input {
+    background-color: transparent;
+    border: none; 
+    color: #4B565E99;
+    height: 28px;
+    width: 400px;
+    border-bottom: 1px solid #000000;
+    font-size: 16px;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    // font-family: inherit;
+    // src: url("../assets/fonts/Inter_18pt-Regular.ttf") format('truetype'); 
+    // font-weight: 400;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-input::placeholder {
+    font-weight: 400;
+}
+
+.header-2-right-city {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 600;
+}
+
+.logo-search {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+    border-bottom: 1px solid #000000;
+}
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+//     src: url("../assets/fonts/Inter_18pt-SemiBold.ttf") format('truetype'); 
+//     font-weight: 600;
+}
