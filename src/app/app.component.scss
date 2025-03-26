@@ -4,11 +4,10 @@
     display: flex;
     justify-content: space-between;
     background-color: #4B565E;
-    color: white;
+    color: #FFFFFF;
     align-items: center; 
-    padding-right: 240px; 
+    padding-right: 240px;
     padding-left: 240px;
-    font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
 
@@ -27,7 +26,7 @@
 }
 
 .header-right-phone-logo {
- margin: 10px;
+    margin: 10px;
 }
 
 .header-right-heart-logo {
@@ -37,8 +36,8 @@
 .header-right-basket {
     display: flex;
     align-items: center; 
-    border: 1px solid white;
-    border-radius: 20px 20px 20px 20px; 
+    border: 1px solid #FFFFFF; 
+    border-radius: 20px; 
     padding: 5px 5px 5px;
 }
 
@@ -52,7 +51,6 @@
     padding-right: 240px; 
     padding-left: 240px;
     justify-content: space-between;
-    font-family: 'Inter', sans-serif;
 }
 
 .logo-menu {
@@ -61,7 +59,6 @@
 
 .header-2-nav-item {
     margin-right: 24px;
-    font-family: inherit;
 }
 
 .header-2-left {
@@ -90,11 +87,6 @@
     width: 400px;
     border-bottom: 1px solid #000000;
     font-size: 16px;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
-    // font-family: inherit;
-    // src: url("../assets/fonts/Inter_18pt-Regular.ttf") format('truetype'); 
-    // font-weight: 400;
 }
 
 .search-input:focus {
@@ -119,8 +111,3 @@
     border-bottom: 1px solid #000000;
 }
 
-@font-face {
-    font-family: 'Inter', sans-serif;
-//     src: url("../assets/fonts/Inter_18pt-SemiBold.ttf") format('truetype'); 
-//     font-weight: 600;
-}
