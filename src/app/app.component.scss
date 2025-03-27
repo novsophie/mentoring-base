@@ -1,6 +1,6 @@
 .header {
-    width: 1,920px;
-    height: 128px;
+    width: 1920 px;
+    height: 128 px;
     display: flex;
     justify-content: space-between;
     background-color: #4B565E;
@@ -39,6 +39,7 @@
     border: 1px solid #FFFFFF; 
     border-radius: 20px; 
     padding: 5px 5px 5px;
+    border-color: #F0BA4E;
 }
 
 .header-2 {
@@ -111,3 +112,12 @@
     border-bottom: 1px solid #000000;
 }
 
+.header-2-nav-item {
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.city-name {
+    color: #FFFFFF;
+}
