@@ -121,3 +121,217 @@
 .city-name {
     color: #FFFFFF;
 }
+
+.male-picture {
+    width: 1920px;
+}
+
+.item-buttons {
+    display: flex;
+    justify-content: end;
+    margin-right: 300px;
+    
+}
+
+.item-button {
+    border: none;
+    background-color: transparent;
+    padding-right: 16px;
+    color: #A1A0A0;
+    font-weight: 600;
+}
+
+.active-button {
+    color: #F0BA4E;
+}
+
+.item-grid {
+    display: flex;
+    justify-content: center;
+    max-width: 1320px;
+    margin: 0 auto;
+    // margin-left: 300px;  
+    // margin-right: 300px; 
+}
+
+.item-grid-left {
+    background-image: url(../assets/image19.png);
+    width: 421px;
+    height: 428px;
+    max-width: 421px;
+    max-height: 428px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    box-shadow: 0 20px 50px 0 #3C3C3B12;
+    background-position-x: left;
+    background-position-y: bottom;
+    margin-bottom: 500px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 28px;
+
+}
+.item-grid-left-text {
+    font-size: 28px;
+    font-weight: 600;
+    color: #3C3C3B;
+    padding: 16px;
+}
+
+.item-grid-left-action {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3C3C3B;
+    justify-content: end;
+    margin-bottom: 16px;
+    margin-right: 16px;
+}
+
+.item-grid-text-action-button {
+    padding: 10px;
+}
+
+.item-grid-right {
+    display: flex;
+    max-width: 870px;
+    max-height: 428px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.item-grid-right-card-1{
+    height: 200px;
+    width: 421px;
+    box-shadow: 0 20px 50px 0 #3C3C3B12;
+    background-image: url(../assets/image\ 14.png);
+    background-position-x: left;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 28px;
+}
+
+.item-grid-right-card-2{
+    height: 200px;
+    width: 421px;
+    box-shadow: 0 20px 50px 0 #3C3C3B12;
+    margin-bottom: 28px;
+}
+.item-grid-right-card-3{
+    height: 200px;
+    width: 421px;
+    box-shadow: 0 20px 50px 0 #3C3C3B12;
+}
+.item-grid-right-card-4{
+    height: 200px;
+    width: 421px;
+    box-shadow: 0 20px 50px 0 #3C3C3B12;
+}
+
+.item-grid-right-card-1-text {
+    font-size: 28px;
+    font-weight: 600;
+    margin-right: 16px;
+    color: #3C3C3B;
+    padding: 16px;
+}
+
+.item-grid-right-action {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 16px;
+    color: #3C3C3B;
+}
+
+.item-grid-right-card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.item-grid-right-card-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    background-image: url(../assets/image\ 17.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+
+}
+
+.item-grid-right-card-2-text {
+    font-size: 28px;
+    font-weight: 600;
+    margin-right: 16px;
+    color: #3C3C3B;
+    max-width: 231px;
+    max-height: 68px;
+    padding: 16px;
+    color: #3C3C3B;
+}
+
+.item-grid-right-action-text-2 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 16px;
+    color: #3C3C3B;
+}
+
+.item-grid-right-card-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    background-image: url(../assets/image\ 18.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.item-grid-right-action-text-3 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 16px;
+    color: #3C3C3B;
+}
+
+.item-grid-right-card-4 {
+    background-image: url(../assets/image\ 15.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.item-grid-right-card-4-text {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 16px;
+    color: #3C3C3B;
+}
+
+.item-grid-right-action-text-4 {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 16px;
+    margin-left: 190px;
+    color: #3C3C3B;
+}
