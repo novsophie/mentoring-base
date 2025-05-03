@@ -151,7 +151,7 @@
 }
 
 .item-grid-left {
-    background-image: url(../"assets/image19.png");
+    background-image: url("../assets/image19.png");
     width: 421px;
     height: 428px;
     max-width: 421px;
@@ -167,7 +167,6 @@
     flex-direction: column;
     justify-content: space-between;
     margin-right: 28px;
-
 }
 .item-grid-left-text {
     font-size: 28px;
@@ -204,7 +203,7 @@
     height: 200px;
     width: 421px;
     box-shadow: 0 20px 50px 0 #3C3C3B12;
-    background-image: url(../"assets/image\ 14.png");
+    background-image: url("../assets/image\ 14.png");
     background-position-x: left;
     background-position-y: bottom;
     background-repeat: no-repeat;
@@ -257,7 +256,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    background-image: url(../"assets/image\ 17.png");
+    background-image: url("../assets/image\ 17.png");
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
@@ -288,7 +287,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: start;
-    background-image: url(../"assets/image\ 18.png");
+    background-image: url("../assets/image\ 18.png");
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
@@ -304,7 +303,7 @@
 }
 
 .item-grid-right-card-4 {
-    background-image: url(../"assets/image\ 15.png");
+    background-image: url("../assets/image\ 15.png");
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: bottom;

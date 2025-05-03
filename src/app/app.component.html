@@ -1,12 +1,13 @@
-<div class="header">
+<div class="header" >
   <div class="header-left">
   <div class="header-logo">
     <img src="/assets/Frame.svg" alt="логотип сайта">
   </div>
   <nav class="header-nav">
-  <a class="header-nav-item">Главная</a>
-  <a class="header-nav-item">О компании</a>
-  <a class="header-nav-item">Каталог</a>
+  <a class="header-nav-item" *ngFor="let item of menuUpperHeader">{{item}}</a>
+  <!-- <a class="header-nav-item">{{headerItem2}}</a>
+  <a class="header-nav-item">{{headerItem3}}</a> -->
+  <button (click)="changeText()"> ИЗМЕНИТЬ </button>
 </nav>
 </div>
 <div class="header-right">
@@ -27,11 +28,11 @@
     <img src="/assets/light.svg" alt="логотип меню">
     </div>
   <nav class="header-nav">
-  <button class="header-2-nav-item">Каталог</button>
-  <button class="header-2-nav-item">Стройметериалы</button>
-  <button class="header-2-nav-item">Инструменты</button>
-  <button class="header-2-nav-item">Электрика</button>
-  <button class="header-2-nav-item">Интерьер и одежда</button>
+  <button class="header-2-nav-item" *ngFor="let item of menuLowerHeader">{{item}}</button>
+  <!-- <button class="header-2-nav-item">{{AboutCompany}}</button> 
+  <button class="header-2-nav-item">{{header2Item3}}</button>
+  <button class="header-2-nav-item">{{header2Item4}}</button>
+  <button class="header-2-nav-item">{{header2Item5}}</button> -->
 </nav>
 </div>
 <div class="header-2-right">
@@ -48,15 +49,12 @@
 </div>
 </div>
 <div class="male-picture">
-  <img src="../assets/backgrounphoto.png" style="width: 100%;">
+  <button (click)="isShowMenu = !isShowMenu">Показать фото</button>
+  <img src="../assets/backgrounphoto.png" style="width: 100%;" *ngIf="isShowMenu">
 </div>
 <div class="item-content">
 <div class="item-buttons">
-  <button class="item-button active-button">1</button>
-  <button class="item-button">2</button>
-  <button class="item-button">3</button>
-  <button class="item-button">4</button>
-  <button class="item-button">5</button>
+  <button class=item-button *ngFor="let item of newPages">{{item}}</button>
 </div>
 <div class="item-grid">
  <div class="item-grid-left">
